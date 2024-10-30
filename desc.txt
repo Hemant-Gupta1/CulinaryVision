@@ -1,0 +1,2 @@
+Engineered an advanced solution for quality control in the food industry, leveraging image processing and machine learning for real-time defect detection and classification, significantly enhancing operational efficiency.
+Developed a responsive frontend using Next.js, React, and Tailwind CSS, with RESTful API integration to interact with ML models hosted on ngrok.
