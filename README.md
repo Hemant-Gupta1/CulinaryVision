@@ -31,7 +31,7 @@ The UI is designed to be intuitive and user-friendly, featuring:
 The system is designed to handle image uploads, process them through various machine learning models, and return analysis results. The architecture consists of:
 
 - **Frontend**: Built with Next.js, it provides a user interface for uploading images and displaying results.
-- **Backend**: A Flask/FastAPI server that handles image processing requests and communicates with machine learning models.
+- **Backend**: A Flask server that handles image processing requests and communicates with machine learning models.
 - **Machine Learning Models**: Various models for OCR, freshness detection, MRP and expiry detection, and item counting.
 
 ![image](https://github.com/user-attachments/assets/f257d828-796c-4ab7-8ef4-997cf8f0bc0b)
@@ -59,39 +59,7 @@ To get started with the project, follow these steps:
 - pip (Python package manager)
 - conda (for managing Python environments)
 
-### Installation
 
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/yourusername/Smart-Vision-Technology-Quality-Control-.git
-   cd Smart-Vision-Technology-Quality-Control-
-   ```
-
-2. **Set up the frontend**:
-   ```bash
-   cd web-app
-   npm install
-   ```
-
-3. **Set up the backend**:
-   ```bash
-   cd backend
-   conda create -p venv python==3.8
-   conda activate venv
-   pip install -r requirements.txt
-   ```
-
-4. **Run the development server**:
-   - For the frontend:
-     ```bash
-     npm run dev
-     ```
-   - For the backend:
-     ```bash
-     python app.py
-     ```
-
-5. **Open your browser** and navigate to [http://localhost:3000](http://localhost:3000) to view the application.
 
 ## Project Structure
 
